@@ -1,10 +1,18 @@
+﻿<?php
+declare(strict_types=1);
+
+header('Content-Type: text/html; charset=UTF-8');
+
+$appTitle = 'IPEC Santo Domingo · Soporte TI y Diseño de Software';
+$phpVersion = PHP_VERSION;
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>IPEC Santo Domingo · Soporte TI y Diseño de Software</title>
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
 </head>
 <body data-active-area="soporte" data-theme="light">
   <div class="app-layout">
@@ -606,7 +614,7 @@
   </main>
   </div>
 
-  <script src="js/data.js"></script>
-  <script src="js/interactive.js"></script>
+  <script src="/js/data.js"></script>
+  <script src="/js/interactive.js"></script>
 </body>
 </html>
